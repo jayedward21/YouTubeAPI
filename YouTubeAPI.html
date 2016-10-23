@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title> YouTube Search </title>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'/>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Search YouTube</h1>
+    <p class="disclaimer">Search for anything on YouTube and receive a image back of your search</p>
+    <form id="search-form">
+      <input id="query" type="text" placeholder="Search YouTube"/>
+      <div><input class="myButton" type="submit" value="Search" id="submit"/></div>
+    </form>
+    <div id="search-results">
+      <ul></ul>
+      <p class="error"></p>
+    </div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

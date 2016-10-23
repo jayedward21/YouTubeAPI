@@ -1,0 +1,44 @@
+
+body{
+  background-color: lightblue;
+  text-align: center;
+}
+form {
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+ padding: 0;
+
+}
+input {
+  background: lightgreen;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  width: 160px;
+  padding: 15px 16px;
+  margin-bottom: 10px;
+}
+li {
+  list-style: none;
+}
+#query {
+  background: lightblue;
+  text-align: center;
+}
+.wrapper {
+  background-color: white;
+}
+.wrapper input {
+  color: black;
+  padding: 15px;
+  margin-top: 6px;
+  width: 320px;
+}
